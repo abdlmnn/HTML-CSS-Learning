@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+  color: #000;
+}
+
+article {
+  border: 5px solid #000;
+  width: 700px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.sale-tag {
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  position: absolute;
+  top: -18px;
+  left: -30px;
+}
+
+.name-product {
+  background-color: #e4e4e4;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+}
+
+.price-product {
+  font-size: 20px;
+}
+
+.free-shipping {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-product {
+  margin-bottom: 5px;
+}
+
+a:link,
+a:visited {
+  color: inherit;
+  font-size: 14px;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.product-details {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 15px;
+  width: 100%;
+  border-top: 5px solid #000;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.box {
+  display: inline-block;
+  margin: 20px 0;
+  margin-right: 10px;
+  background-color: pink;
+  height: 22px;
+  width: 22px;
+}
+
+.black {
+  background-color: #000;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
+.brown {
+  background-color: brown;
+}
